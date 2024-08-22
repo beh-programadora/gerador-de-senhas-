@@ -1,0 +1,19 @@
+import random 
+import string 
+
+
+def gerar_senhas(tamanho=8):
+    caracters = string.ascii_latters + string.digits + string.punctuation
+    senha = ''.join(random.choice(caracteres) for _ in range ( tamanho))
+    return senha 
+    
+    import random
+
+# Definição da função gerar_senha
+def gerar_senha(tamanho):
+    caracteres = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()'
+    senha = ''.join(random.choice(caracteres) for _ in range(tamanho))
+    return senha 
+
+# Chamada da função gerar_senha
+print("Sua senha gerada é:", gerar_senha(12))
