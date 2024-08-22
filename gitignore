@@ -1,0 +1,37 @@
+
+### .gitignore
+```plaintext
+# Ignorar arquivos e pastas específicas
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar arquivos de ambiente virtual
+env/
+venv/
+
+# Ignorar arquivos de configuração específicos de IDEs
+.idea/
+.vscode/
+Enunciado do Projeto
+Título: Gerador de Senhas Aleatórias em Python
+
+Objetivo:
+Desenvolver um gerador de senhas aleatórias que permita ao usuário especificar o tamanho da senha desejada. A senha gerada deve ser composta por letras maiúsculas, minúsculas, números e caracteres especiais para garantir sua segurança.
+
+Requisitos:
+
+O gerador deve ser implementado em Python.
+O usuário deve poder especificar o tamanho da senha.
+A senha gerada deve incluir uma combinação de letras maiúsculas, minúsculas, números e caracteres especiais.
+Entregáveis:
+
+Código-fonte do gerador de senhas (gerar_senha.py).
+Arquivo README.md explicando como executar o gerador de senhas e exemplos de uso.
+Arquivo .gitignore para ignorar arquivos desnecessários no repositório.
+Critérios de Avaliação:
+
+Funcionamento correto do gerador de senhas.
+Clareza e organização do código.
+Qualidade da documentação no README.md.
